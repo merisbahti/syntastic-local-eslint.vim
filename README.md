@@ -15,3 +15,6 @@ Inspired By
 -----------
 
 Inspired by http://blog.pixelastic.com/2015/10/05/use-local-eslint-in-syntastic/
+
+forked from mtscout6/syntastic-local-eslint.vim, only variation is to use eslint_d binary instead of eslint.
+
