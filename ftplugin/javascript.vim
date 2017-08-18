@@ -14,7 +14,7 @@ endfun
 " return full path of local eslint executable
 "  or an empty string if no executable found
 fun! s:GetEslintExec (node_modules)
-  let eslint_guess = a:node_modules is '' ? '' : a:node_modules . '.bin/eslint'
+  let eslint_guess = a:node_modules is '' ? '' : a:node_modules . '.bin/eslint_d'
   return exepath(eslint_guess)
 endfun
 
